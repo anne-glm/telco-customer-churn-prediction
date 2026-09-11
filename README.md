@@ -63,12 +63,11 @@ Top features driving churn predictions identified by the tuned XGBoost model:
 ```text
 telco-customer-churn-prediction/
 │
-├── data/
-│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-├── notebooks/
-│   └── churn_prediction_pipeline.ipynb
-├── models/
-│   └── churn_model_xgb.pkl
-├── .gitignore
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│   
+├── churn_prediction_pipeline.ipynb
+│   
+├── churn_model_xgb.pkl
+│
 ├── requirements.txt
 └── README.md
